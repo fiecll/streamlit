@@ -7,10 +7,11 @@ import time
 st.title("streamlit ")
 st.write("dataframe")
 
-Image.open("IMG_1559.JPG")
+image = Image.open("IMG_1559.JPG")
 
 'Start'
 
+st.image(image)
 latest_iteration = st.empty()
 bar = st.progress(0)
 
